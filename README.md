@@ -15,10 +15,10 @@ The analysis of the `xmm` data which is used briefly in some parts of the analys
 
 A quick description of the notebooks is as follows:
 
-- [data.md](data.ipynb): Used for data preparation, reduction and the extraction of the spectra and light curves 
-- [lc_psd.md](lc_psd.ipynb): Used for estimating the power spectra.
-- [lag_22l3.md](lag_2213.md): Lag calculations using the full 22 energy bins used in section 3.1 in the paper.
-- [lag_22l3b.md](lag_2213b.md): Lag calculations at coarse energy bins (using 11 bins). This first calculates the lag at the published frequencies, then lag-vs-frequency, and lags at the new frequencies
+- `data.md`: Used for data preparation, reduction and the extraction of the spectra and light curves 
+- `lc_psd.md`: Used for estimating the power spectra.
+- `lag_22l3.md`: Lag calculations using the full 22 energy bins used in section 3.1 in the paper.
+- `lag_22l3b.md`: Lag calculations at coarse energy bins (using 11 bins). This first calculates the lag at the published frequencies, then lag-vs-frequency, and lags at the new frequencies
 
 
 ### Data Products:
