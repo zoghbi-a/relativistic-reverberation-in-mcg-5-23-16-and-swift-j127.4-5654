@@ -7,7 +7,7 @@ This repository contains the code data associated with the article titled: [A Ha
 
 
 ### Description
-The analysis is organied into several python notebooks, which sometimes call outside functions either from my [toolset package `aztools`](https://zoghbi-a.github.io/aztools) or the `helpers.py` file. 
+The analysis is organied into several python notebooks, which sometimes call outside functions either from my [toolset package `aztools`](https://zoghbi-a.github.io/aztools) or the `helpers.py` file. The lag calculations are done using the package [`fqlag`](https://zoghbi-a.github.io/fqlag). 
 
 The analysis for each of the two sources is contained in the folders named `mcg5` and `sw2127` respectively. The `helper.py` script is used by both of them.
 
@@ -22,7 +22,7 @@ A quick description of the notebooks is as follows:
 
 
 ### Data Products:
-The data products are available throught the Open Science Framework at this [link](). Only data that is not available in the heasarc public archive (or can be derived from it in a straightforward manner) is included. 
+The data products are available throught the Open Science Framework (links below). Only data that is not available in the heasarc public archive (or can be derived from it in a straightforward manner) is included. 
 
 There are two sets of files, one for each source, named: [`mcg5.tgz` (1GB)](https://osf.io/9m5du/download) and [`sw2127.tgz` (1GB)](https://osf.io/buhd7/download). Each one contains the following folders:
 - `nustar/`: contains the folders `{obsid}_p` for each observations. Each folder contains the light curves and spectra from that observation.
