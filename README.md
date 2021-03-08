@@ -7,7 +7,7 @@ This repository contains the code data associated with the article titled: [A Ha
 
 
 ### Description
-The analysis is organied into several python notebooks, which sometimes call outside functions either from my [toolset package `aztools`](https://zoghbi-a.github.io/aztools) or the `helpers.py` file. The lag calculations are done using the package [`fqlag`](https://zoghbi-a.github.io/fqlag). 
+The analysis is organied into several python notebooks, which sometimes call outside functions either from my [toolset package `aztools`](https://github.com/zoghbi-a/aztools) or the `helpers.py` file. The lag calculations are done using the package [`fqlag`](https://github.com/zoghbi-a/fqlag). 
 
 The analysis for each of the two sources is contained in the folders named `mcg5` and `sw2127` respectively. The `helper.py` script is used by both of them.
 
