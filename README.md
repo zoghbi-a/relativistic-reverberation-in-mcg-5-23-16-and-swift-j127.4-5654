@@ -13,12 +13,12 @@ The analysis for each of the two sources is contained in the folders named `mcg5
 
 The analysis of the `xmm` data which is used briefly in some parts of the analysis uses individual scripts located in `{data-folder}/xmm/` (where `data-folder` refers to either `mcg5` or `sw2127`) and `README` file in each case explains what the scripts do
 
-A quick description of the notebooks is as follows (the files can be access clicking 'View on Github' above or [here](https://github.com/zoghbi-a/relativistic-reverberation-in-mcg-5-23-16-and-swift-j127.4-5654)):
+A quick description of the notebooks is as follows:
 
-- [`mcg/data.md`](mcg/data.md) and [`sw2127/data.md`](sw2127/data.md): Used for data preparation, reduction and the extraction of the spectra and light curves 
-- `lc_psd.md`: Used for estimating the power spectra.
-- `lag_22l3.md: Lag calculations using the full 22 energy bins used in section 3.1 in the paper.
-- `lag_22l3b`: Lag calculations at coarse energy bins (using 11 bins). This first calculates the lag at the published frequencies, then lag-vs-frequency, and lags at the new frequencies
+- [`mcg5/data.md`](mcg5/data.md) and [`sw2127/data.md`](sw2127/data.md): Used for data preparation, reduction and the extraction of the spectra and light curves 
+- [`mcg5/lc_psd.md`](mcg5/lc_psd.md) and [`sw2127/lc_psd.md`](sw2127/lc_psd.md): Used for estimating the power spectra.
+- [`mcg5/lag_22l3.md`](mcg5/lag_22l3.md) and [`sw2127/lag_22l3.md`](sw2127/lag_22l3.md): Lag calculations using the full 22 energy bins used in section 3.1 in the paper.
+- [`mcg5/lag_22l3b.md`](mcg5/lag_22l3b.md) and [`sw2127/lag_22l3b.md`](sw2127/lag_22l3b.md): Lag calculations at coarse energy bins (using 11 bins). This first calculates the lag at the published frequencies, then lag-vs-frequency, and lags at the new frequencies
 
 
 ### Data Products:
