@@ -15,7 +15,7 @@ The analysis of the `xmm` data which is used briefly in some parts of the analys
 
 A quick description of the notebooks is as follows (the files can be access clicking 'View on Github' above or [here](https://github.com/zoghbi-a/relativistic-reverberation-in-mcg-5-23-16-and-swift-j127.4-5654)):
 
-- `data.md`: Used for data preparation, reduction and the extraction of the spectra and light curves 
+- [`mcg/data.md`](mcg/data.md) and [`sw2127/data.md`](sw2127/data.md): Used for data preparation, reduction and the extraction of the spectra and light curves 
 - `lc_psd.md`: Used for estimating the power spectra.
 - `lag_22l3.md: Lag calculations using the full 22 energy bins used in section 3.1 in the paper.
 - `lag_22l3b`: Lag calculations at coarse energy bins (using 11 bins). This first calculates the lag at the published frequencies, then lag-vs-frequency, and lags at the new frequencies
